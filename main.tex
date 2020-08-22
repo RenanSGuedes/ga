@@ -34,21 +34,17 @@
 \begin{document}
 	\maketitle
 	\section{Projeção de vetores}
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.1]{images/proj}
 	\end{figure}
-	
 	A figura acima ilustra a projeção ortogonal que o vetor $\bm{A}$ faz sobre $\bm{B}$. Essa projeção existe quando sua subtração de $\bm{A}$ gera um vetor ortogonal a \bm{B}. Para chegar na relação que expressa essa medida em termos dos vetores $\bm{A}$ e $\bm{B}$ vamos consideram que $\bm{V}_{1}$ é igual a projeção de $\bm{A}$ sobre $\bm{B}$ e $\bm{V}_{2}$ é o vetor ortogonal a $\bm{B}$ dado por $\bm{A}-\proj{B}{A}$, então
-	
 	$$
 	\begin{cases}
 		\bm{V}_{1}=\proj{B}{A}\\
 		\bm{V}_{2}=\bm{A}-\proj{B}{A}
 	\end{cases}
-	$$
-	
+	$$	
 	Como \bm{V}$_{1}$ é um múltiplo escalar de \bm{B} (vetores paralelos), então é possível escrever \bm{V}$_{1}$ em termos de \bm{B}, como
 	\begin{equation}
 		\label{eq:first}
@@ -71,22 +67,19 @@
 	\begin{equation}
 		\bm{V}_{1}=\proj{B}{A}=\left(\dfrac{\bm{A}\bm{B}}{||\bm{B}||^{2}}\right)\bm{B}
 	\end{equation}
-	
 	\section{Distância de um ponto a uma reta}
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.1]{images/dist}
 		\label{fig:dist}
 	\end{figure}
 	Visando dar uma abordagem vetorial ao problema, vamos redesenhar a figura
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.1]{images/dist_n}
 		\label{fig:distn}
 	\end{figure}
-	aplicando o teorema de Pitágoras, vem
+	\noindent aplicando o teorema de Pitágoras, vem
 	\begin{eqnarray}
 		(\textrm{dist}(P_{0},r))^{2}&=&||\vect||^{2}-||\textrm{proj}_{\bm{V}}\vect||^{2}\\
 		&=&||\vect||^{2}-\left|\!\left|\left(\dfrac{\vect\cdot\bm{V}}{||\bm{V}||^{2}}\right)\bm{V}\right|\!\right|^{2}\\
@@ -113,7 +106,22 @@
 	\begin{equation}
 		\textrm{dist}(P_{0},r)=\dfrac{\vect\times\bm{V}}{||\bm{V}||}
 	\end{equation}
-	 
+	\section{Produto Vetorial}
+	Foi visto na seção anterior que para o cálculo da distância entre um ponto e uma reta é requerido o uso do produto vetorial 
+	entre um vetor que ligue um ponto de $r$ ao ponto que se deseja saber a distância. Todavia, um questionamento que pode surgir seria o motivo do produto vetorial ser constante, tendo em vista que o ponto $P_{1}$ de $r$ ao ser escolhido de forma arbitrária gera um $\vect$ distinto em cada situação.\vspace{.25cm}
+	Uma justificativa que pode ser aplicada é lembrar que o produto vetorial entre dois vetores produz um vetor ortogonal aos dois primeiros com a magnitude dada pela área do paralelogramo formado entre eles. Com base nisso, o que torna o produto cruz $\vect\times\bm{V}$ constante é o fato de que a distância entre a reta $r$ e o ponto $P_{0}$ é constante independente do vetor diretor de $r$ ou do vetor que liga $P_{1}$ a $P_{0}$. Logo, por mais que o vetor $\vect$ não seja ortogonal a $r$ há uma compensação entre o valor do seno de $\theta$ e o comprimento de $\vect$, gerando sempre a mesma projeção da distância. Imaginando que o comprimento de $\vect$ aumente por conta de um ponto $P_{1}\in r$ muito afastado de $P_{0}$, nesse caso, $\theta$ irá diminuir e junto dele o seu seno. Entretanto, caso a distância entre $P_{1}$ e $P_{0}$ diminua, $\theta$ aumentará até que seu seno se torne 1, o que caracteriza a menor distância em linha reta, porém, em ambos os casos, ao considerar que $\bm{V}$ é o mesmo, então $||\vect||\sin\theta$ não mudará.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.95\linewidth]{images/area}
+		\label{fig:area}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.95\linewidth]{images/area_n}
+		\label{fig:arean}
+	\end{figure}
+	
 	
 	
 \end{document}

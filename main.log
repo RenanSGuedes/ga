@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  21 AUG 2020 23:49
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  22 AUG 2020 14:16
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -684,17 +684,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/proj.pdf, id=11, 110.67146pt x 138.7042pt>
+<images/proj.pdf, id=15, 110.67146pt x 138.7042pt>
 File: images/proj.pdf Graphic file (type pdf)
 <use images/proj.pdf>
-Package luatex.def Info: images/proj.pdf  used on input line 40.
+Package luatex.def Info: images/proj.pdf  used on input line 39.
 (luatex.def)             Requested size: 121.73895pt x 152.57506pt.
-<images/dist.pdf, id=14, 181.97887pt x 158.97392pt>
+<images/dist.pdf, id=18, 181.97887pt x 158.97392pt>
 File: images/dist.pdf Graphic file (type pdf)
 <use images/dist.pdf>
-Package luatex.def Info: images/dist.pdf  used on input line 79.
+Package luatex.def Info: images/dist.pdf  used on input line 73.
 (luatex.def)             Requested size: 200.17735pt x 174.87184pt.
-LaTeX Font Info:    Trying to load font information for T1+bch on input line 82.
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 76.
 
 
 (C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/psnfss/t1bch.fd
@@ -702,36 +702,46 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 <./images/proj.pdf>]
-<images/dist_n.pdf, id=57, 172.63295pt x 155.4608pt>
+<images/dist_n.pdf, id=61, 172.63295pt x 155.4608pt>
 File: images/dist_n.pdf Graphic file (type pdf)
 <use images/dist_n.pdf>
-Package luatex.def Info: images/dist_n.pdf  used on input line 86.
+Package luatex.def Info: images/dist_n.pdf  used on input line 79.
 (luatex.def)             Requested size: 189.8968pt x 171.0074pt.
 [2<./images/dist.pdf><./images/dist_n.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
- [3]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 119.
+<images/area.pdf, id=116, 450.0815pt x 115.46237pt>
+File: images/area.pdf Graphic file (type pdf)
+<use images/area.pdf>
+Package luatex.def Info: images/area.pdf  used on input line 116.
+(luatex.def)             Requested size: 405.45047pt x 104.01556pt.
+<images/area_n.pdf, id=117, 450.0815pt x 115.46237pt>
+File: images/area_n.pdf Graphic file (type pdf)
+<use images/area_n.pdf>
+Package luatex.def Info: images/area_n.pdf  used on input line 121.
+(luatex.def)             Requested size: 405.45047pt x 104.01556pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+ [3<./images/area.pdf><./images/area_n.pdf>]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 127.
  (./main.xwm) (./main.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 21.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 147D617C3099F5E779C51ECC3F2E6FEC;376.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+(rerunfilecheck)             Checksum: D432BE60282A040ED4719FE1837DE260;503.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17768 strings out of 480883
+ 17800 strings out of 480883
  100000,662416 words of node,token memory allocated
  622 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 36 attribute, 55 gl
 ue_spec, 20 attribute_list, 1 write nodes
-   avail lists: 2:903,3:102,4:32,5:168,6:23,7:1313,8:49,9:332,10:4,11:86
- 34865 multiletter control sequences out of 65536+200000
+   avail lists: 2:903,3:101,4:32,5:174,6:22,7:2030,8:49,9:331,10:12,11:159
+ 34884 multiletter control sequences out of 65536+200000
  94 fonts using 7845867 bytes
- 66i,14n,75p,462b,750s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,14n,75p,1083b,750s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
@@ -745,9 +755,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (3 pages, 265906 bytes).
+Output written on main.pdf (3 pages, 273050 bytes).
 
-PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 131072)
- 17 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 179 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 131072)
+ 25 words of extra memory for PDF output out of 10000 (max. 100000000)
 
